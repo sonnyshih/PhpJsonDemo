@@ -47,7 +47,7 @@ $context = stream_context_create(array(
 
 // Send the request
 // $response = file_get_contents('http://sonnyshih.summerhost.info/post.php', FALSE, $context);
-$response = file_get_contents('http://localhost/myproject/HeadDemo/PostDemo/post.php', FALSE, $context);
+$response = file_get_contents('http://localhost/PhpJsonDemo/HeadDemo/PostDemo/post.php', FALSE, $context);
 
 // Check for errors
 if($response === FALSE){
